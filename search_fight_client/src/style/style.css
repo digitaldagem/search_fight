@@ -1,0 +1,94 @@
+header > h1 { 
+  display: inline-block; 
+}
+
+.App-container {
+  text-align: center;
+}
+
+.App-content {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+}
+
+.Belt-matchup {
+  width: 50%;
+}
+
+.Belt-scorecard {
+  width: 25%;
+}
+
+.Bold {
+  font-weight: bold;
+}
+
+.Button-fight {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: .5rem;
+  vertical-align: middle;
+}
+
+.Button-reset {
+  background-color: white;
+  border: none;
+  float: right;
+  margin-right: 5%;
+  vertical-align: middle;
+}
+
+.Center {
+  text-align: center;
+}
+
+.Column {
+  width: 30%;
+}
+
+.Error-text {
+  color: red;
+}
+
+.Fighting-gif {
+  width: 80vmin;
+  pointer-events: none;
+}
+
+.Five-percent-top-bottom-padding {
+  padding: 5% 0;
+}
+
+.Input {
+  border: 1px solid;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+	margin: 0 auto;
+  padding: .5rem;
+  text-align: center;
+  width: 50%;
+}
+
+.Twenty-percent-bottom-padding {
+  padding-bottom: 20%;
+}
+
+.Two-percent-table-padding {
+  padding: 2%;
+}
+
+.Two-percent-top-bottom-padding {
+  padding: 2% 0;
+}
+
+.Versus-column {
+  font-size: 100%;
+  width: 5%;
+}
