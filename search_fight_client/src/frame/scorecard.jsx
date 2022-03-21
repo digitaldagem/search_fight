@@ -12,7 +12,7 @@ const Scorecard = (props) => {
 
     return (
         <>
-            <span className='Two-percent-top-bottom-padding'>
+            <span className='Two-percent-bottom-padding'>
                 <button className='Button-reset' onClick={() => props.reset()}>
                     <img src={reset} alt='reset'/>
                 </button>
