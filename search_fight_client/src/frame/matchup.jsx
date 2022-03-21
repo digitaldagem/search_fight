@@ -21,7 +21,7 @@ const Matchup = (props) => {
           </tbody>
       </table>
       <h4 className='Error-text'>{props.errorMessage}</h4>
-      <table className='Twenty-percent-bottom-padding'>
+      <table>
           <tbody>
             <OneColumnRow columnClass={''} columnValue={<button className='Button-fight' onClick={() => props.submit()}>Fight</button>}/>
           </tbody>
